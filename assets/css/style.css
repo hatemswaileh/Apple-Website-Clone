@@ -72,6 +72,29 @@ body a {
   font-weight: 200;
 }
 
+#nav-menu li {
+  width: 70%;
+  line-height: 36px;
+  vertical-align: middle;
+  border-right: 0.02px rgb(94, 92, 92) solid;
+  box-shadow: 0.5px 0 3px 0 rgba(255, 255, 255, 0.2);
+}
+
+#nav-menu li:first-child {
+  font-size: 23px;
+}
+
+#nav-menu li:hover {
+  background: rgb(66, 65, 65);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#nav-menu label {
+  width: 80%;
+  margin: 0 10px;
+}
+
 /** NAVIGATION STYLE END */
 
 /** MAIN TEXT STYLE START */
