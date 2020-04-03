@@ -195,12 +195,43 @@ body a {
 
 /** FOOTER STYLE START */
 
+#footer {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: grid;
+  grid-template-columns: repeat(2, 490px);
+  width: 980px;
+  margin: 0 auto;
+}
+
+#footer a {
+  color: rgb(28, 173, 209);
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+#footer div {
+  font-size: 10px;
+  line-height: 2.5em;
+  margin-top: 22px;
+  font-weight: 400 !important;
+  color: rgb(170, 168, 168);
+}
+
 /** FOOTER STYLE END */
 
-/** FOOTER INFO STYLE START */
-
-/** FOOTER INFO STYLE END */
-
 /** FOOTER MENU STYLE START */
+
+#footer-menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+#footer-menu img {
+  height: 16px;
+}
 
 /** FOOTER MENU STYLE END */
