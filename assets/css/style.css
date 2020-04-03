@@ -26,7 +26,7 @@ body a {
   #main-section {
     height: 100vh;
     width: 820px;
-    background-position: bottom 0px left auto;
+    background-position: bottom;
   }
 
   #nav-menu,
@@ -41,7 +41,7 @@ body a {
 
 #main-section {
   background-image: url("../images/your_verse_hero.jpg");
-  background-position: bottom 0px left 0px;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: auto;
   text-align: center;
