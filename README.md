@@ -13,7 +13,7 @@ HTML & CSS Apple Website Clone
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/hatemswaileh/Apple-Website-Clone/6c176d8780d9f10af10bb4154e869c9fcc9da061/index.html)
+[Live Demo Link](https://rawcdn.githack.com/hatemswaileh/Apple-Website-Clone/37249c2ac14f73731568f6231fb9c4774cfacbcb/index.html)
 
 ## Getting Started
 
