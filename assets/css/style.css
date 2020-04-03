@@ -112,8 +112,8 @@ body a {
 
 #nav-bar label input:focus {
   background-color: #fff !important;
-  background: url("../images/search-icon-bk.png") top 3px left 4px no-repeat;
-  background-size: 17px;
+  background: url("../images/search-icon-bk.png") top 5px left 7px no-repeat;
+  background-size: 12px;
   width: 170px;
   outline: none;
   border: none;
@@ -159,7 +159,37 @@ body a {
 
 /** BANNERS STYLE START */
 
+#banners {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: start;
+  text-align: center;
+  margin-top: 2px;
+  min-width: 1024px;
+}
 
+#banners a {
+  width: 25vw;
+  max-width: 360px;
+  min-width: 256px;
+}
+
+#banner-1 {
+  background: url("../images/promo_iphone5s.jpg") center no-repeat;
+  background-size: auto;
+}
+#banner-2 {
+  background: url("../images/promo_iphone5c.jpg") center no-repeat;
+  background-size: auto;
+}
+#banner-3 {
+  background: url("../images/promo_30_years.jpg") center no-repeat;
+  background-size: auto;
+}
+#banner-4 {
+  background: url("../images/promo_supplier_responsibility.jpg") center no-repeat;
+  background-size: auto;
+}
 
 /** BANNERS STYLE END */
 
