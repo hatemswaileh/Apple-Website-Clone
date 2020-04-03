@@ -5,7 +5,7 @@ html * {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Open Sans", "Helvetica Neue", sans-serif, sans-serif;
+  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, "Open Sans", "Helvetica Neue", sans-serif, sans-serif;
   font-size: 18px;
   display: grid;
   grid-template-rows: auto 200px 80px;
@@ -61,18 +61,27 @@ body a {
   background: linear-gradient(
     rgb(153, 149, 149) 0%, rgb(110, 110, 110) 45%, rgb(80, 80, 80) 50%, rgb(120, 120, 120) 98%);
   display: flex;
+  position: relative;
   justify-content: space-evenly;
   align-items: center;
   border-radius: 3px;
   box-shadow: 0.5px 0.5px 1px 0.2px rgb(58, 57, 57);
   height: 36px;
   width: 980px;
+  top: 70px;
   margin: 17px auto;
   font-size: 12px;
   font-weight: 200;
 }
 
+span.fab.fa-apple {
+    background: linear-gradient( rgb(246, 247, 247) 0%, rgb(243, 244, 245) 40%, rgb(191, 190, 190) 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 #nav-menu li {
+  font-weight: 400;
   width: 70%;
   line-height: 36px;
   vertical-align: middle;
@@ -85,9 +94,13 @@ body a {
 }
 
 #nav-menu li:hover {
-  background: rgb(66, 65, 65);
   text-decoration: none;
   cursor: pointer;
+  border-image: url(../images/btn-hover-1.png) 0 2 0 1 fill;
+  background: url(../images/btn-hover-2.png) 0px 0px repeat-x,
+  url(../images/btn-hover-3.png) 100% 0px repeat-y,
+  url(../images/btn-hover-4png) 0px 0px repeat-y,
+  rgba(0, 0, 0, 0.4);
 }
 
 #nav-menu label {
@@ -125,34 +138,46 @@ body a {
 
 #main-text {
   font-size: 32px;
+  position: relative;
+  top: -30px;
 }
 
 #main-text h1 {
   font-size: 2em;
   margin-top: 160px;
   margin-bottom: 20px;
+  font-weight: 100;
+  color: transparent;
+  text-shadow: 0 0 1.5px #fff;
 }
 
 #main-text p:first-of-type {
   font-size: 1em;
   line-height: 1.4em;
-  width: 800px;
+  width: 830px;
   margin: 25px auto;
+  color: transparent;
+  text-shadow: 0 0 1.1px #fff;
 }
 
 #main-text p:nth-of-type(2) {
   font-size: 0.8em;
   width: 600px;
   margin: 25px auto;
+  background: url("../images/play-btn.png") top 1px right 15px no-repeat;
+  padding-right: 45px;
+  height: 29px;
+  cursor: pointer;
 }
 
-#main-text p:nth-of-type(2) i {
-  font-size: 1em;
-  margin-left: 6px;
+#main-text p a {
+  color: transparent;
+  text-shadow: 0 0 1px #fff;
 }
 
 #main-text p a:hover {
-  text-decoration: underline;
+  border-bottom: 1px outset #fff;
+  display: inline-block;
 }
 
 /** MAIN TEXT STYLE END */
