@@ -1,3 +1,4 @@
+![hireable](https://camo.githubusercontent.com/acb1a5f09db49856cbd382627e5ed9a0573b3b6e/68747470733a2f2f63646e2e7261776769742e636f6d2f6869656e64762f6869726561626c652f6d61737465722f7374796c65732f64656661756c742f7965732e737667)
 # Project Name
 
 [Apple Website Clone](https://web.archive.org/web/20140301004610/http://www.apple.com/)
@@ -38,7 +39,7 @@ Apple Website Clone (Layout)
 
 - Github: [@hatemswaileh](https://github.com/hatemswaileh/)
 - Twitter: [@hatemswaileh](https://twitter.com/hatemswaileh)
-- Linkedin: [linkedin](https://www.linkedin.com/in/HatemSwaileh)
+- Linkedin: [Hatem Sweileh](https://www.linkedin.com/in/HatemSwaileh)
 
 ## 🤝 Contributing
 
